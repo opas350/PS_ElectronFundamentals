@@ -3,10 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="countdown.css" />
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css"/>
         <title>Countdown</title>
     </head>
-    <body>
-        <h1>This is a Demo</h1>
+    <body class="backgroundColor">
+        <h1 class="first-message">This is a Demo</h1>
+            <div class="bg-primary" id="count"></div>
+        <button id="start" class="btn btn-danger">Start</button>
         <script>require('./renderer')</script>
         
     </body>

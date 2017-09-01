@@ -1,4 +1,13 @@
-h1{
+.first-message{
     font-family: sans-serif;
-    color: blue;
+    color: rgb(50, 150, 50);
+}
+
+.backgroundColor{
+    background: black;
+}
+
+.button-start {
+    color: red;
+    background: greenyellow;
 }
